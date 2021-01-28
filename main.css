@@ -1,0 +1,11 @@
+#gameboard {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+}
+
+.marks {
+    border: 2px solid black;
+    font: 50px 'Garamond', 'serif';
+    text-align: center;
+}
